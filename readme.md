@@ -1,7 +1,7 @@
 # Lightweight Hybrid Attention RGB-D Networks for Accurate Camouflaged Object Detection
 
 Source code and dataset for our paper "Lightweight Hybrid Attention RGB-D Networks for Accurate Camouflaged Object Detection" by Yang Liu, Shuhan Chen, Haonan Tang, and Shiyu Wang. 
-The Visual Computer is under review.
+Submitted to The Visual Computer, under review.
 
 # Training/Testing
 
