@@ -7,12 +7,12 @@ The Visual Computer is under review.
 
 The training and testing experiments are conducted using [PyTorch]( https://github.com/pytorch/ ) with one NVIDIA 3090 GPU of 24 GB Memory.
 
-1.  Configuring your environment (Prerequisites):
+###1.  Configuring your environment (Prerequisites):
 
   * Python 3.7+, Pytorch 1.5.0+, Cuda 10.2+, TensorboardX 2.1, opencv-python <br>
       If anything goes wrong with the environment, please check requirements.txt for details.
 
-2.  Downloading necessary data:
+###2.  Downloading necessary data:
 
   * Downloading dataset can be found from [Baidu Drive]( https://pan.baidu.com/s/1sTspmcOwoHyIwLP7CyQMmQ 提取码: 353X ).
 
