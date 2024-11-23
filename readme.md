@@ -3,7 +3,7 @@
 Source code and dataset for our paper "Lightweight Hybrid Attention RGB-D Networks for Accurate Camouflaged Object Detection" by Yang Liu, Shuhan Chen, Haonan Tang, and Shiyu Wang. 
 The Visual Computer is under review.
 
-# Training/Testing
+## Training/Testing
 
 The training and testing experiments are conducted using [PyTorch]( https://github.com/pytorch/ ) with one NVIDIA 3090 GPU of 24 GB Memory.
 
@@ -16,7 +16,7 @@ The training and testing experiments are conducted using [PyTorch]( https://gith
 
   * Downloading dataset can be found from [Baidu Drive]( https://pan.baidu.com/s/1sTspmcOwoHyIwLP7CyQMmQ 提取码: 353X ).
 
-# Evaluation
+## Evaluation
                                                                           
 1.  CODToolbox：（ https://github.com/DengPingFan/CODToolbox ）- By DengPingFan(<https://github.com/DengPingFan>)
 
@@ -24,13 +24,13 @@ The training and testing experiments are conducted using [PyTorch]( https://gith
  
 3.  BDE_Measure： [Baidu Drive]（ https://pan.baidu.com/s/1OorwYFq0ZY2I99ONoIF6Ig 提取码: 353X ）
 
-# Network hyperparameters:
+## Network hyperparameters:
 
 The epoch size and batch size are set to 100 and 10, respectively.
 The PyTorch library was used to implement and train our model, which was trained using Adam optimization,
 regularization was conducted using a weight decay of 1e-3, and we set the learning rate of our training phase to 1e-4.
 
-# Reproduce
+## Reproduce
 
 1.  Network training
 
@@ -66,12 +66,12 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
     
  *   BDE_Measure: Need to run main.m in the file on Matlab
 
-#  Architecture and Details
+##  Architecture and Details
 
 ![fdb42aff9cac95a9c767dcebdbbf074](https://github.com/user-attachments/assets/69ee4c67-fc25-4469-a75a-f55e0a5df6d2)
 
 
-# Results
+## Results
 
 ![a235ce2b53954fa8fbed9d09c439342](https://github.com/user-attachments/assets/b2f7d501-7902-45a8-a540-fa2f260a64fa)
 
