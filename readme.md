@@ -32,7 +32,7 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
 
 ## Reproduce
 
-####1.  Network training
+1.  Network training
 
   * python train.py   
 
