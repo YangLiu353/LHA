@@ -63,6 +63,8 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
 3.   Evaluation of quantitative indicators
 
  *   python CODtest_metrics.py
+    
+ *   BDE_Measure: Need to run main.m in the file on Matlab
 
 #  Architecture and Details
 
