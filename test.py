@@ -9,9 +9,9 @@ import cv2
 import time
 from thop import profile
 
-from LSNet import LSNet
+from utils.LSNet import LSNet
 
-from config import opt
+from utils.config import opt
 
 dataset_path = opt.test_path
 
