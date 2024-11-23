@@ -22,4 +22,4 @@ The training and testing experiments are conducted using [PyTorch]( https://gith
   2.    Precision_and_recall：（ https://en.wikipedia.org/wiki/Precision_and_recall ）  
  
   3.    BDE_Measure： [Baidu Drive]（ https://pan.baidu.com/s/1OorwYFq0ZY2I99ONoIF6Ig 提取码: 353X ）
-![cc97f81f368c8ecc469ffeb9a67d1ec](https://github.com/user-attachments/assets/04f70526-7792-4cfa-abe4-d62ae772ba43)
+
