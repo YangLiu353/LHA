@@ -37,7 +37,9 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
   * python train.py   
 
   * parser.add_argument('--train_root', type=str, default='', help='the train images root')
+   
     parser.add_argument('--val_root', type=str, default='', help='the val images root')
+    
     parser.add_argument('--save_path', type=str, default='/', help='the path to save models and logs')
 
 2.  Network testing
