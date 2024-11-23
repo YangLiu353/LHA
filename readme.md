@@ -47,6 +47,7 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
   * parser.add_argument('--test_path',type=str,default='/',help='test dataset path')
 
   * model.load_state_dict(torch.load('/Net_epoch_best.pth', weights_only=True))
+   
     model_path = '/Net_epoch_best.pth'
 
   * save_path = '/' + dataset + '/'
