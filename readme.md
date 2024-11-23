@@ -68,3 +68,8 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
 
 # Results
 
+![a235ce2b53954fa8fbed9d09c439342](https://github.com/user-attachments/assets/b2f7d501-7902-45a8-a540-fa2f260a64fa)
+
+![bf14b4846cf7e103323a7c9f8206127](https://github.com/user-attachments/assets/344b8ce6-f7d8-40af-90a6-8309982d96d4)
+
+
