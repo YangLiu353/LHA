@@ -52,6 +52,7 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
   * save_path = '/' + dataset + '/'
     if not os.path.exists(save_path):
         os.makedirs(save_path)
+    
     save_path = '/' + dataset + '/'
     if not os.path.exists(edge_save_path):
         os.makedirs(edge_save_path)
@@ -61,6 +62,9 @@ regularization was conducted using a weight decay of 1e-3, and we set the learni
  *   python CODtest_metrics.py
 
 #  Architecture and Details
+
+![cc97f81f368c8ecc469ffeb9a67d1ec](https://github.com/user-attachments/assets/c9f675f7-3918-42d6-a8ce-5dbadd766e66)
+
 
 # Results
 
