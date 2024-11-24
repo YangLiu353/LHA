@@ -26,7 +26,7 @@ The training and testing experiments are conducted using [PyTorch]( https://gith
 
 ## Network hyperparameters:
 
-The epoch size and batch size are set to 100 and 10, respectively.
+The epoch size and batch size are set to 100 and 16, respectively.
 The PyTorch library was used to implement and train our model, which was trained using Adam optimization,
 regularization was conducted using a weight decay of 1e-3, and we set the learning rate of our training phase to 1e-4.
 
