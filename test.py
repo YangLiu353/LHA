@@ -45,7 +45,7 @@ if opt.task == 'RGBT':
 
     test_datasets = ['VT800', 'VT1000', 'VT5000']
 elif opt.task == 'RGBD':
-    from rgbd_dataset import test_dataset
+    from uyils.rgbd_dataset import test_dataset
 
     test_datasets = ['CAMO', 'CHAMELEON', 'COD10K', 'NC4K']
 else:
