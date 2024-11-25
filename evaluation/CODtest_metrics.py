@@ -8,8 +8,8 @@ import os
 import cv2
 from tqdm import tqdm
 
-txtpath = '/home/ipal/Home/LY/跑跑4/eval/'+'result4'
-data_root = "/home/ipal/Home/LY/跑跑4/eval/eval-data"
+txtpath = '/home/ipal/Home/LY/run4/eval/'+'result4'
+data_root = "/home/ipal/Home/LY/run4/eval/eval-data"
 dataname = ['LSNet-1']
 #dataname = ['CMINet', 'ATSA', 'BTS', 'CDNet', 'CoNet', 'DANet', 'DSA2F', 'EFNet', 'FRDT', 'HAINet', 'PGAR', 'S2MA', 'SSF', 'UCNet']
 #methods = ['COME-E', 'COME-H']
