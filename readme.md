@@ -30,6 +30,10 @@ The epoch size and batch size are set to 100 and 16, respectively.
 The PyTorch library was used to implement and train our model, which was trained using Adam optimization,
 regularization was conducted using a weight decay of 1e-3, and we set the learning rate of our training phase to 1e-4.
 
+## Pretraining Models
+
+  * Pre_model.zip: https://pan.baidu.com/s/1o_XgboxyeUqtx2hvQ6obpQ 提取码: 353X
+
 ## Reproduce
 
 1.  Network training
