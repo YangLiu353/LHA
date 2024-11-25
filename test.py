@@ -23,7 +23,7 @@ print('USE GPU:', opt.gpu_id)
 model = LSNet()
 
 # Load pre-trained weights
-model.load_state_dict(torch.load('/home/ipal/Home/LY/跑跑4/pre1/Net_epoch_best.pth', weights_only=True))
+model.load_state_dict(torch.load('/home/ipal/Home/LY/run4/pre1/Net_epoch_best.pth', weights_only=True))
 model.cuda()
 model.eval()
 
@@ -35,7 +35,7 @@ flops, params = profile(model, inputs=(dummy_image, dummy_ti))
 
 import os
 
-model_path = '/home/ipal/Home/LY/跑跑4/pre1/Net_epoch_best.pth'
+model_path = '/home/ipal/Home/LY/run4/pre1/Net_epoch_best.pth'
 model_size = os.path.getsize(model_path)
 
 # Test
@@ -53,11 +53,11 @@ else:
 
 for dataset in test_datasets:
     mae_sum = 0
-    save_path = '/home/ipal/Home/LY/跑跑4/res1/' + dataset + '/'
+    save_path = '/home/ipal/Home/LY/run4/res1/' + dataset + '/'
     if not os.path.exists(save_path):
         os.makedirs(save_path)
 
-    edge_save_path = '/home/ipal/Home/LY/跑跑4/edge/' + dataset + '/'
+    edge_save_path = '/home/ipal/Home/LY/run4/edge/' + dataset + '/'
     if not os.path.exists(edge_save_path):
         os.makedirs(edge_save_path)
 
